@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre - Introdução ao Bootstrap</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/footer.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-danger mb-4 sticky-top">
+        <a class="navbar-brand" href="index.html">
+            <i class="bi bi-house"></i>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Alterna navegação">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="sobre.html">
+                        <i class="bi bi-link"></i> Sobre</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contato.html">
+                        <i class="bi bi-envelope"></i> Contato</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container mb-4">
+        <h1 class="text-center mb-4">Sobre Nós</h1>
+        
+        <p>Bem-vindo à nossa página "Sobre". Aqui, você pode aprender mais sobre o objetivo deste projeto e a equipe envolvida.</p>
+        
+        <h2>Objetivo do Projeto</h2>
+        <p>Este projeto tem como finalidade apresentar uma introdução ao framework Bootstrap, uma ferramenta poderosa para o desenvolvimento de interfaces responsivas e atraentes. Ao longo das páginas, você encontrará exemplos práticos e dicas úteis para facilitar o seu aprendizado.</p>
+
+        <h2>A Equipe</h2>
+        <p>Nosso time é composto por estudantes apaixonados por desenvolvimento web. Estamos aqui para compartilhar nosso conhecimento e ajudar você a se aprofundar no mundo do Bootstrap e do design responsivo.</p>
+
+        <h2>O que você encontrará aqui?</h2>
+        <ul>
+            <li>Exemplos de componentes do Bootstrap, como botões, alertas e cards.</li>
+            <li>Instruções sobre como utilizar o framework em seus projetos.</li>
+            <li>Dicas sobre boas práticas de design web.</li>
+        </ul>
+
+        <h2>Exemplos de Componentes</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <div class="card-header">Exemplo de Botão</div>
+                    <div class="card-body">
+                        <button class="btn btn-primary">Clique Aqui</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="alert alert-success mb-4" role="alert">
+                    Este é um alerta de sucesso!
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <div class="card-header">Exemplo de Card</div>
+                    <div class="card-body">
+                        <h5 class="card-title">Título do Card</h5>
+                        <p class="card-text">Este é um exemplo de card utilizando Bootstrap.</p>
+                        <a href="#" class="btn btn-secondary">Saiba mais</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <h2>Vídeo Introdução</h2>
+        <div class="card mb-4">
+            <div class="card-body">
+                <iframe width="100%" height="300"
+                    src="https://www.youtube.com/embed/nyaTucp1EwQ?si=AUIxUPnr91y_LNqm"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
+            </div>
+        </div>
+
+        <h2>Localização</h2>
+        <div class="card mb-4">
+            <div class="card-body">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3670.3042347373535!2d-47.20515972594266!3d-23.0859562442965!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c8b4b183d3173b%3A0xe4e10e5dd84bd49e!2sFatec%20Indaiatuba%20-%20Faculdade%20de%20Tecnologia%20de%20Indaiatuba%20Dr.%20Archimedes%20Lammoglia!5e0!3m2!1spt-BR!2sbr!4v1729251479868!5m2!1spt-BR!2sbr"
+                    width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </div>
+
+        <h2>Entre em Contato</h2>
+        <p>Se você tiver alguma dúvida ou sugestão, não hesite em nos contatar pela nossa página de <a href="contato.html">contato</a>.</p>
+    </div>
+
+    <!-- Footer -->
+    <section id="footer" class="bg-dark text-light py-4">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-md-4">
+                    <h5>Links rápidos</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="index.html" class="text-light"><i class="bi bi-house"></i> Home</a></li>
+                        <li><a href="sobre.html" class="text-light"><i class="bi bi-info-circle"></i> Sobre</a></li>
+                        <li><a href="contato.html" class="text-light"><i class="bi bi-envelope"></i> Contato</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-md-4">
+                    <h5>Vídeo</h5>
+                    <div class="card">
+                        <div class="card-body">
+                            <iframe width="100%" height="200"
+                                src="https://www.youtube.com/embed/nyaTucp1EwQ?si=AUIxUPnr91y_LNqm"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <h5>Localização</h5>
+                    <div class="card">
+                        <div class="card-body">
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3670.3042347373535!2d-47.20515972594266!3d-23.0859562442965!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c8b4b183d3173b%3A0xe4e10e5dd84bd49e!2sFatec%20Indaiatuba%20-%20Faculdade%20de%20Tecnologia%20de%20Indaiatuba%20Dr.%20Archimedes%20Lammoglia!5e0!3m2!1spt-BR!2sbr!4v1729251479868!5m2!1spt-BR!2sbr"
+                                width="100%" height="200" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-4">
+                <div class="col-12">
+                    <ul class="list-unstyled list-inline social text-center">
+                        <li class="list-inline-item"><a href="#"><i class="bi bi-facebook"></i></a></li>
+                        <li class="list-inline-item"><a href="#"><i class="bi bi-twitter"></i></a></li>
+                        <li class="list-inline-item"><a href="#"><i class="bi bi-instagram"></i></a></li>
+                        <li class="list-inline-item"><a href="#"><i class="bi bi-linkedin"></i></a></li>
+                        <li class="list-inline-item"><a href="#"><i class="bi bi-envelope"></i></a></li>
+                    </ul>
+                </div>
+                <div class="col-12 mt-2 text-center text-white">
+                    <p>© Todos os direitos reservados.</p>
+                    <p><u><a href="https://www.nationaltransaction.com/" class="text-light">National Transaction Corporation</a></u> é um MSP/ISO registrado da Elavon, Inc.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ./Footer -->
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+</body>
+
+</html>
